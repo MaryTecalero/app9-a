@@ -60,7 +60,7 @@ $('#longitud').html(position.coords.longitude);
 $('#altitud').html(position.coords.altitude);
 $('#accuracy').html(position.coords.accuracy);
 $('#aaccuracy').html(position.coords.altitudeAccuracy);
-$('#headingg').html(position.coords.headingg);
+$('#heading').html(position.coords.headingg);
 $('#speed').html(position.coords.speed);
 $('#').html(position.timestamp);
 	};
