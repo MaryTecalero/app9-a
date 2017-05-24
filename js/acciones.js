@@ -61,8 +61,8 @@ function watchPosition(){
 		$('#accuracy').html(position.coords.accuracy);
 		$('#aaccuracy').html(position.coords.altitudeAccuracy);
 		$('#heading').html(position.coords.heading);
-		$('speed').html(position.coords.speed);
-		$('timestamp').html(position.coords.timestamp);
+		$('#speed').html(position.coords.speed);
+		$('#timestamp').html(position.coords.timestamp);
 	};
 	
 	function  onError(error){
